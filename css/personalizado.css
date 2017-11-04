@@ -1,0 +1,51 @@
+#barra {
+	background-color: #E05A19;
+	border-color: #9c3a1c;
+
+}
+#barra .navbar-brand, #barra .navbar-nav > li > a {
+	color: white;
+}
+
+
+#barra .navbar-toggle:focus, #barra .navbar-toggle:hover{
+	background-color: #9c3a1c;
+}
+
+#barra .navbar-toggle{
+	border-color: #d64b22;
+}
+.menu{
+	display: inline-block;
+}
+
+#barra .menu > li > a{
+	padding-left: 13px;
+	transition: all 0.4s;
+	text-transform: uppercase;
+	font-weight: 400;
+	/*border-left: 1px solid #121212;*/
+}
+#barra .menu > li > a > i{
+	padding-right: 2px;
+}
+#barra .menu > li >a:hover{
+	background: #9c3e11;
+	color:#fff;
+}
+.navbar-header > .titulo{
+	border-right: 1px solid #e36a2f;
+}
+
+.paginas{
+	z-index:1000;
+	position: absolute;
+	top: 85%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+footer{
+	margin-top:100px;
+}
